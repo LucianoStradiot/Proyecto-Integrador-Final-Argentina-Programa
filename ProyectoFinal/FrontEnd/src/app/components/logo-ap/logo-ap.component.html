@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/luciano-stradiot-343a98142/" target="_blank"><img src="../../../assets/linkedin.png" alt=""></a>
+            <a href="https://github.com/LucianoStradiot" target="_blank"><img src="../../../assets/github.png" alt=""></a>
+            <a href="https://www.instagram.com/luchostradiot/" target="_blank"><img src="../../../assets/instagram (1).png" alt=""></a>
+            <a href="https://www.facebook.com/luciano.stradiot" target="_blank"><img src="../../../assets/facebook.png" alt=""></a>
+            <button type="button" class="btn btn-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button type="button" class="btn btn-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+

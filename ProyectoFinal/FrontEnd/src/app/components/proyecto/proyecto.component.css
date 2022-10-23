@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+    background-color: rgb(121, 194, 194);
+}
+.contenedor{
+    width: auto;   
+}
+.parte1, .parte2{
+    display: inline-block;
+}
+.imgproyecto{
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
